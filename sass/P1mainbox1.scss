@@ -1,0 +1,19 @@
+/* Secciones de Contenido - Caja nro1 */
+.caja-fondo1 {
+    margin: 0;
+    width: 100%;
+    height: 30em;
+    background-image: url('../img/img1investigacion.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+    }
+}
