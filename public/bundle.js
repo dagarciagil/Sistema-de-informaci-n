@@ -56,12 +56,11 @@ var dataDocentes = {
                 nombre: 'Jorge Enrique Quevedo Buitrago',
                 ruta: './img/docentes/JorgeQuevedo.jpg',
                 nombre_citaciones: 'Nombre en citaciones: \n QUEVEDO BUITRAGO, JORGE ENRIQUE',
-                // nacionalidad: 'Colombiana',
-                // formación: 
-                //   'Maestría/Magister UNIVERSIDAD TECNOLÓGICA DE PEREIRA \n Especialización FUNDACIÓN UNIVERSITARIA LOS LIBERTADORES \n Pregrado/Universitario UNIVERSIDAD DE CUNDINAMARCA',
-                // Areas_actuacion: 'Ciencias Naturales -- Matemática -- Estadísticas y Probabilidades (Investigación en Metodologías)',
-                // Par_evaludaror: 'Ámbito: Nacional  Par evaluador de: Proyecto  Institución: Secretaria de educacion del municipio de Fusagasuga,  2014,  Septiembre  \n Ámbito: Nacional  Par evaluador de: Proyecto  Institución: Fundacion Red Colombiana de Semilleros de Investigacion RedColsi - Nodo Bogota,  2023,  Enero  ',
-                
+                nacionalidad: 'Nacionalidad: Colombiana',
+                formacion: 
+                  'Formación: Maestría/Magister UNIVERSIDAD TECNOLÓGICA DE PEREIRA \n Especialización FUNDACIÓN UNIVERSITARIA LOS LIBERTADORES \n Pregrado/Universitario UNIVERSIDAD DE CUNDINAMARCA',
+                Areas_actuacion: 'Ares de actuación: Ciencias Naturales -- Matemática -- Estadísticas y Probabilidades (Investigación en Metodologías)',
+                Par_evaludaror: 'Par evaluador: \n Ámbito: Nacional \n Par evaluador de: Proyecto  Institución: Secretaria de educacion del municipio de Fusagasuga,  2014,  Septiembre  \n Ámbito: Nacional  Par evaluador de: Proyecto  Institución: Fundacion Red Colombiana de Semilleros de Investigacion RedColsi - Nodo Bogota,  2023,  Enero  ',
             },
         ],
         Gordillo: [
@@ -71,7 +70,7 @@ var dataDocentes = {
                 ruta: './img/docentes/WilsonGordillo.jpg',
                 nombre_citaciones: 'Nombre en citaciones: \n GORDILLO OCHOA, WILSON DANIEL',
                 // nacionalidad: 'Colombiana',
-                // formación:
+                // formacion:
                 //     'Maestría/Magister UNIVERSIDAD COOPERATIVA DE COLOMBIA \n 	Especialización UNIVERSIDAD COOPERATIVA DE COLOMBIA \n 	Especialización UNIVERSIDAD COOPERATIVA DE COLOMBIA-Docencia universitaria \n 	Pregrado/Universitario Corporación Universidad Piloto De Colombia',
                 // Areas_actuacion: 'Ciencias Naturales -- Computación y Ciencias de la Información -- Ciencias de la Computación \n Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Ingeniería de Sistemas y Comunicaciones \n Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Telecomunicaciones',
                 // Par_evaludaror: ' ',
@@ -84,13 +83,14 @@ var dataDocentes = {
 const galeria$2 = document.getElementById('galeria');
 
 // nombre_citaciones, nacionalidad, formación, Areas_actuacion, Par_evaludaror
-const cargarDocentes = (nombre,ruta, nombre_citaciones) => {
-    galeria$2.querySelector('.galeria__titulo').innerText = nombre;
+const cargarDocentes = (nombre, ruta, nombre_citaciones, nacionalidad, formacion, Areas_actuacion, Par_evaludaror) => {
+    galeria$2.querySelector('.galeria__nombre').innerText = nombre;
     galeria$2.querySelector('.galeria__imagen').src = ruta;
-    galeria$2.querySelector('.galeria__descripcion-imagen-activa').innerText = nombre_citaciones;
-    // galeria.querySelector('.galeria__descripcion-imagen-activa').innerText = descripcion;
-    // galeria.querySelector('.galeria__descripcion-imagen-activa').innerText = descripcion;
-    // galeria.querySelector('.galeria__descripcion-imagen-activa').innerText = descripcion;
+    galeria$2.querySelector('.galeria__nombre_citaciones').innerText = nombre_citaciones;
+    galeria$2.querySelector('.galeria__nacionalidad').innerText = nacionalidad;
+    galeria$2.querySelector('.galeria__formacion').innerText = formacion;
+    galeria$2.querySelector('.galeria__area-actuacion').innerText = Areas_actuacion;
+    galeria$2.querySelector('.galeria__par-evaluador').innerText = Par_evaludaror;
 };
 
 const contenedorCategorias = document.getElementById('categorias');
@@ -115,8 +115,8 @@ contenedorCategorias.addEventListener('click', (e) => {
         galeria$1.classList.add('galeria--active');
 
         // Tomamos la informacion de la primera imagen de la categoria y la cargamos en el DOM.
-        const { nombre, ruta, nombre_citaciones } = docentes[0];
-        cargarDocentes(nombre, ruta, nombre_citaciones);
+        const { nombre, ruta, nombre_citaciones, nacionalidad, formacion, Areas_actuacion, Par_evaludaror } = docentes[0];
+        cargarDocentes(nombre, ruta, nombre_citaciones, nacionalidad, formacion, Areas_actuacion, Par_evaludaror);
 
     }
 });

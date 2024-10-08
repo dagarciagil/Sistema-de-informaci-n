@@ -6,7 +6,7 @@
 	}
 
 	&__overlay {
-		background: rgba(0, 0, 0, 0.95);
+		background: rgba(92, 136, 80, 0.785);
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -29,6 +29,7 @@
 	}
 
 	&__contenedor-titulo {
+		background-color: #fff;
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-end;
@@ -38,7 +39,7 @@
 		font-family: 'Playfair Display',serif;
 		font-size: 24px;
 		font-weight: normal;
-		color: #fff;
+		color: #000000;
 	}
 
 	&__btn {

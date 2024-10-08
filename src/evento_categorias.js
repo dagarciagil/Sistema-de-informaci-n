@@ -23,8 +23,8 @@ contenedorCategorias.addEventListener('click', (e) => {
         galeria.classList.add('galeria--active');
 
         // Tomamos la informacion de la primera imagen de la categoria y la cargamos en el DOM.
-        const { nombre, ruta, nombre_citaciones } = docentes[0];
-        cargarDocentes(nombre, ruta, nombre_citaciones);
+        const { nombre, ruta, nombre_citaciones, nacionalidad, formacion, Areas_actuacion, Par_evaludaror } = docentes[0];
+        cargarDocentes(nombre, ruta, nombre_citaciones, nacionalidad, formacion, Areas_actuacion, Par_evaludaror);
 
     }
 });
