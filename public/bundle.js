@@ -95,7 +95,7 @@ const cargarDocentes = (nombre,ruta, nombre_citaciones) => {
 
 const contenedorCategorias = document.getElementById('categorias');
 const galeria$1 = document.getElementById('galeria');
-
+let categoriaActiva;
 
 // Agregamos el event listener a las categorias.
 contenedorCategorias.addEventListener('click', (e) => {
@@ -103,16 +103,17 @@ contenedorCategorias.addEventListener('click', (e) => {
     
     // Comprobamos que lo que se le hace click contenga el data-categoria.
     if (e.target.closest('a')) {
-        // Agregamos la clase active a la galeria.
-        galeria$1.classList.add('galeria--active');
-        // Agregamos un overflow hidden al body.
-        document.body.style.overflow = 'hidden';
+        categoriaActiva = e.target.closest('a').dataset.categoria;
+        galeria$1.dataset.categoria = categoriaActiva;
 
-        const categoriaActiva = e.target.dataset.categoria;
-      
         // Obtenemos las fotos que corresponden a la categoria
         const docentes = dataDocentes.docentes[categoriaActiva]; 
-    
+      
+        // Agregamos un overflow hidden al body.
+        document.body.style.overflow = 'hidden';
+        // Agregamos la clase active a la galeria.
+        galeria$1.classList.add('galeria--active');
+       
         // Tomamos la informacion de la primera imagen de la categoria y la cargamos en el DOM.
         const { nombre, ruta, nombre_citaciones } = docentes[0];
         cargarDocentes(nombre, ruta, nombre_citaciones);

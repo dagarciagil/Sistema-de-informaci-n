@@ -45,10 +45,11 @@ body {
       font-weight: bold;
       transition: color 400ms, font-size 400ms;
       
+      &:hover {
+          color: rgb(120, 251, 26);
+          transition: color 400ms;
+        }
     }
   }
- header a:hover {
-   color: rgb(120, 251, 26);
-   transition: color 400ms;
- }
+ 
 }
