@@ -1,0 +1,13 @@
+// Definir la animación del botón del archivo "P2docentes_info.scss", en el apartado "&__icono-boton{}"
+@keyframes respirar {
+    0% {
+      transform: scale(1); //el botón empieza en su tamaño original
+    }
+    50% {
+      transform: scale(1.2); // Aumenta un 50%
+    }
+    100% {
+      transform: scale(1); //el botón se devuelve a su tamaño original
+    }
+  }
+  

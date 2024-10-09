@@ -55,7 +55,7 @@ var dataDocentes = {
                 id: 1,
                 nombre: 'Jorge Enrique Quevedo Buitrago',
                 ruta: './img/docentes/JorgeQuevedo.jpg',
-                nombre_citaciones: '✍️ Nombre en citaciones  \n QUEVEDO BUITRAGO, JORGE ENRIQUE',
+                nombre_citaciones: '<span style="color: red"; style="font-style:bolder";>Nombre en citaciones: </span> <br> QUEVEDO BUITRAGO, <strong style="color: blue;">JORGE ENRIQUE</strong>',
                 nacionalidad: '🌎 Nacionalidad \n Colombiana',
                 formacion: 
                   'Formación: \n Maestría/Magister UNIVERSIDAD TECNOLÓGICA DE PEREIRA \n Especialización FUNDACIÓN UNIVERSITARIA LOS LIBERTADORES \n Pregrado/Universitario UNIVERSIDAD DE CUNDINAMARCA',
@@ -68,7 +68,7 @@ var dataDocentes = {
                 id: 2,
                 nombre: 'Wilson Daniel Gordillo Ochoa',
                 ruta: './img/docentes/WilsonGordillo.jpg',
-                nombre_citaciones: '✍️ Nombre en citaciones \n GORDILLO OCHOA, WILSON DANIEL',
+                nombre_citaciones: '--> Nombre en citaciónes \n GORDILLO OCHOA, WILSON DANIEL',
                 nacionalidad: '🌎 Nacionalidad \n Colombiana',
                 formacion:
                     'Formación: \n Maestría/Magister UNIVERSIDAD COOPERATIVA DE COLOMBIA \n 	Especialización UNIVERSIDAD COOPERATIVA DE COLOMBIA \n 	Especialización UNIVERSIDAD COOPERATIVA DE COLOMBIA-Docencia universitaria \n 	Pregrado/Universitario Corporación Universidad Piloto De Colombia',
@@ -81,7 +81,7 @@ var dataDocentes = {
                 id: 3,
                 nombre: 'Alba Gissela Fajardo Ortíz',
                 ruta: './img/docentes/iconopersonaF.jpg',
-                nombre_citaciones: '✍️ Nombre en citaciones  \n FAJARDO ORTÍZ, ALBA GISSELA',
+                nombre_citaciones: '--> Nombre en citaciónes  \n FAJARDO ORTÍZ, ALBA GISSELA',
                 nacionalidad: '🌎 Nacionalidad \n Colombiana',
                 formacion:
                     'Formación: \n 	Doctorado UNIVERSIDAD AUTÓNOMA CHAPINGO \n 	Maestría/Magister UNIVERSIDAD AUTÓNOMA CHAPINGO \n Especialización UNIVERSIDAD NACIONAL DE COLOMBIA \n Pregrado/Universitario UNIVERSIDAD DE CUNDINAMARCA   ',
@@ -94,7 +94,7 @@ var dataDocentes = {
                 id: 4,
                 nombre: 'Ana Esperanza Merchan Hernandez',
                 ruta: './img/docentes/AnaMerchan.jpg',
-                nombre_citaciones: '✍️ Nombre en citaciones  \n MERCHAN HERNANDEZ, ANA ESPERANZA',
+                nombre_citaciones: '--> Nombre en citaciónes  \n MERCHAN HERNANDEZ, ANA ESPERANZA',
                 nacionalidad: '🌎 Nacionalidad \n Colombiana',
                 formacion:
                     'Formación: \n Maestría/Magister Universidad Oberta de Cataluña \n Especialización UNIVERSIDAD SANTO TOMAS \n Pregrado/Universitario UNIVERSIDAD CENTRAL',
@@ -107,7 +107,7 @@ var dataDocentes = {
                 id: 5,
                 nombre: 'Bernabe Buitrago Dominguez',
                 ruta: './img/docentes/iconopersonaM.jpg',
-                nombre_citaciones: '✍️ Nombre en citaciones  \n BUITRAGO DOMINGUEZ, BERNABE',
+                nombre_citaciones: '--> Nombre en citaciónes  \n BUITRAGO DOMINGUEZ, BERNABE',
                 nacionalidad: '🌎 Nacionalidad \n Colombiana',
                 formacion:
                     'Formación: \n Maestría/Magister UNIVERSIDAD TECNOLÓGICA DE PEREIRA \n 	Especialización FUNDACIÓN UNIVERSITARIA LOS LIBERTADORES \n Pregrado/Universitario UNIVERSIDAD DE CUNDINAMARCA',
@@ -120,7 +120,7 @@ var dataDocentes = {
                 id: 6,
                 nombre: 'Campo Eli Castillo Eraso',
                 ruta: './img/docentes/CampoEli.jpg',
-                nombre_citaciones: '✍️ Nombre en citaciones \n CASTILLO ERASO, CAMPO ELI',
+                nombre_citaciones: '--> Nombre en citaciónes \n CASTILLO ERASO, CAMPO ELI',
                 nacionalidad: '🌎 Nacionalidad \n Colombiana',
                 formacion:
                     'Formación: \n Especialización CORPORACIÓN UNIVERSITARIA REMINGTON \n 	Pregrado/Universitario Fundacion Universidad Incca De Colombia \n Secundario Instituto Champagnat \n Primaria Instituto San Juan Bosco',
@@ -133,7 +133,7 @@ var dataDocentes = {
                 id: 7,
                 nombre: 'Edgar Alfonso Peña Albarracin',
                 ruta: './img/docentes/EdgarPeña.jpg',
-                nombre_citaciones: '✍️ Nombre en citaciones  \n PEÑA ALBARRACIN, EDGAR ALFONSO',
+                nombre_citaciones: '--> Nombre en citaciónes  \n PEÑA ALBARRACIN, EDGAR ALFONSO',
                 nacionalidad: '🌎 Nacionalidad \n Colombiana',
                 formacion:
                     'Formación: \n Maestría/Magister CORPORACIÓN UNIVERSITARIA MINUTO DE DIOS - UNIMINUTO \n Pregrado/Universitario CORPORACIÓN UNIVERSITARIA MINUTO DE DIOS - UNIMINUTO \n Técnico - nivel superior CORPORACIÓN UNIVERSITARIA MINUTO DE DIOS - UNIMINUTO \n Secundario Inem Francisco De Paula Santander - Kennedy',
@@ -146,7 +146,7 @@ var dataDocentes = {
                 id: 8,
                 nombre: 'Edna Alexandra Vargas Clavijo',
                 ruta: './img/docentes/EdnaVargas.jpg',
-                nombre_citaciones: '✍️ Nombre en citaciones \n VARGAS CLAVIJO, EDNA ALEXANDRA',
+                nombre_citaciones: '--> Nombre en citaciónes \n VARGAS CLAVIJO, EDNA ALEXANDRA',
                 nacionalidad: '🌎 Nacionalidad \n Colombiana',
                 formacion:
                     'Formación: \n Especialización UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS \n Pregrado/Universitario UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS',
@@ -159,7 +159,7 @@ var dataDocentes = {
                 id: 9,
                 nombre: 'Eva Patricia Vasquez Gomez',
                 ruta: './img/docentes/EvaVasquez.jpg',
-                nombre_citaciones: '✍️ Nombre en citaciones  \n VASQUEZ GOMEZ, EVA PATRICIA',
+                nombre_citaciones: '--> Nombre en citaciónes  \n VASQUEZ GOMEZ, EVA PATRICIA',
                 nacionalidad: '🌎 Nacionalidad \n Colombiana',
                 formacion:
                     'Formación: \n Maestría/Magister Universitat Oberta de Catalunya \n Especialización Escuela de Comunicaciones Militares \n Pregrado/Universitario Fundacion Universidad Incca De Colombia',
@@ -172,7 +172,7 @@ var dataDocentes = {
                 id: 9,
                 nombre: 'Gustavo Adolfo Lanza Bayona',
                 ruta: './img/docentes/iconopersonaM.jpg',
-                nombre_citaciones: '✍️ Nombre en citaciones \n LANZA BAYONA, GUSTAVO ADOLFO',
+                nombre_citaciones: '--> Nombre en citaciónes \n LANZA BAYONA, GUSTAVO ADOLFO',
                 nacionalidad: '🌎 Nacionalidad \n Colombiana',
                 formacion:
                     'Formación: \n 	Doctorado UNIVERSIDAD DE LOS ANDES \n Maestría/Magister Pontifícia Universidade Católica Do Rio De Janeiro \n Pregrado/Universitario UNIVERSIDAD DE CUNDINAMARCA',
@@ -185,7 +185,7 @@ var dataDocentes = {
                 id: 10,
                 nombre: 'Jimmy Efren Moreno Sandoval',
                 ruta: './img/docentes/JimmyMoreno.jpg',
-                nombre_citaciones: '✍️ Nombre en citaciones \n MORENO SANDOVAL, JIMMY EFREN',
+                nombre_citaciones: '--> Nombre en citaciónes \n MORENO SANDOVAL, JIMMY EFREN',
                 nacionalidad: '🌎 Nacionalidad \n Colombiana',
                 formacion:
                     'Formación: \n Maestría/Magister Universidad Internacional de la Rioja \n Especialización UNIVERSIDAD DE CUNDINAMARCA FGGA \n 	Pregrado/Universitario UNIVERSIDAD DE CUNDINAMARCA FGGA',
@@ -198,7 +198,7 @@ var dataDocentes = {
                 id: 11,
                 nombre: 'Jorge Rolando Pardo Morales',
                 ruta: './img/docentes/JorgePardo.jpg',
-                nombre_citaciones: '✍️ Nombre en citaciones  \n PARDO MORALES, JORGE ROLANDO',
+                nombre_citaciones: '--> Nombre en citaciónes  \n PARDO MORALES, JORGE ROLANDO',
                 nacionalidad: '🌎 Nacionalidad \n Colombiana',
                 formacion:
                     'Formación: \n 	Especialización INSTITUCIÓN UNIVERSITARIA POLITÉCNICO GRANCOLOMBIANO \n Pregrado/Universitario UNIVERSIDAD DE CUNDINAMARCA',
@@ -226,13 +226,14 @@ const galeria$2 = document.getElementById('galeria');
 
 // nombre_citaciones, nacionalidad, formación, Areas_actuacion, Par_evaludaror
 const cargarDocentes = (nombre, ruta, nombre_citaciones, nacionalidad, formacion, areas_actuacion, par_evaluador) => {
-    galeria$2.querySelector('.galeria__nombre').innerText = nombre;
+    galeria$2.querySelector('.galeria__nombre').innerHTML = nombre;
     galeria$2.querySelector('.galeria__imagen').src = ruta;
-    galeria$2.querySelector('.galeria__nombre_citaciones').innerText = nombre_citaciones;
-    galeria$2.querySelector('.galeria__nacionalidad').innerText = nacionalidad;
-    galeria$2.querySelector('.galeria__formacion').innerText = formacion;
-    galeria$2.querySelector('.galeria__area-actuacion').innerText = areas_actuacion;
-    galeria$2.querySelector('.galeria__par-evaluador').innerText = par_evaluador;
+    galeria$2.querySelector('.galeria__nombre_citaciones').innerHTML = 
+    `<span style="color: #e74c3c;">${nombre_citaciones}</span>`;
+    galeria$2.querySelector('.galeria__nacionalidad').innerHTML = nacionalidad;
+    galeria$2.querySelector('.galeria__formacion').innerHTML = formacion;
+    galeria$2.querySelector('.galeria__area-actuacion').innerHTML = areas_actuacion;
+    galeria$2.querySelector('.galeria__par-evaluador').innerHTML = par_evaluador;
 };
 
 const contenedorCategorias = document.getElementById('categorias');
