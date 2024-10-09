@@ -9,8 +9,8 @@ export default {
                 nacionalidad: 'Nacionalidad: Colombiana',
                 formacion: 
                   'Formación: Maestría/Magister UNIVERSIDAD TECNOLÓGICA DE PEREIRA \n Especialización FUNDACIÓN UNIVERSITARIA LOS LIBERTADORES \n Pregrado/Universitario UNIVERSIDAD DE CUNDINAMARCA',
-                Areas_actuacion: 'Ares de actuación: Ciencias Naturales -- Matemática -- Estadísticas y Probabilidades (Investigación en Metodologías)',
-                Par_evaludaror: 'Par evaluador: \n Ámbito: Nacional \n Par evaluador de: Proyecto  Institución: Secretaria de educacion del municipio de Fusagasuga,  2014,  Septiembre  \n Ámbito: Nacional  Par evaluador de: Proyecto  Institución: Fundacion Red Colombiana de Semilleros de Investigacion RedColsi - Nodo Bogota,  2023,  Enero  ',
+                areas_actuacion: 'Areas de actuación: Ciencias Naturales -- Matemática -- Estadísticas y Probabilidades (Investigación en Metodologías)',
+                par_evaluador: 'Par evaluador \n Ámbito: Nacional \n Par evaluador de: \n Proyecto Institución: Secretaria de educacion del municipio de Fusagasuga, 2014, Septiembre  \n Ámbito: Nacional \n Par evaluador de: \n Proyecto  Institución: Fundacion Red Colombiana de Semilleros de Investigacion RedColsi - Nodo Bogota,  2023,  Enero  ',
             },
         ],
         Gordillo: [
