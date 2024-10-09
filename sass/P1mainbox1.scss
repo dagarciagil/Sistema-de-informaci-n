@@ -10,9 +10,9 @@
     background-attachment: fixed;
     display: grid;
     justify-content: center;
-    
-    
-    &::before{
+
+
+    &::before {
         content: '';
         display: block;
         width: 100%;
@@ -25,7 +25,8 @@
         // border-radius: 5%;
         transition: 0.3s ease-out all;
         opacity: 1;
-    } 
+    }
+
     &__info {
         color: rgb(255, 255, 255);
         position: relative;
@@ -33,17 +34,18 @@
         flex-direction: column;
         justify-content: center;
         list-style: none;
-        
-        h1{
+
+        h1 {
             font-size: 2.8em;
             align-items: center;
             text-align: center;
         }
-        p{
+
+        p {
             font-size: 1.2em;
             align-items: center;
             text-align: center;
             font-style: italic;
         }
-    }  
+    }
 }
