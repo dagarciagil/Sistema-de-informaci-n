@@ -369,7 +369,7 @@ var dataDocentes = {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px"> Maestría/Magister</strong> UNIVERSIDAD IBEROAMERICANA INTERNACIONAL UNINI - Desarrollo estratégico <br> <strong style="color: black; font-size: 16px"> Pregrado/Universitario </strong> UNIVERSIDAD DE CUNDINAMARCA FGGA - Ingenieria de Sistemas',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵 Áreas de actuación: </strong> <br> No presenta',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> No presenta',
         par_evaluador: "",
       },
     ],
