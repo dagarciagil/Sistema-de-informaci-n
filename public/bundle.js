@@ -57,8 +57,8 @@ var dataDocentes = {
                 ruta: './img/docentes/JorgeQuevedo.jpg',
                 nombre_citaciones: '<strong style="color: black; font-size: 18px">✍🏻 Nombre en citaciones:</strong> <br> QUEVEDO BUITRAGO, JORGE ENRIQUE',
                 nacionalidad: '<strong style="color: black; font-size: 18px">🌎 Nacionalidad:</strong> <br>Colombiana',
-                formacion: 
-                  '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> Maestría/Magister UNIVERSIDAD TECNOLÓGICA DE PEREIRA <br> Especialización FUNDACIÓN UNIVERSITARIA LOS LIBERTADORES <br> Pregrado/Universitario UNIVERSIDAD DE CUNDINAMARCA',
+                formacion:
+                    '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px"> Maestría/Magister </strong> UNIVERSIDAD DEL TOLIMA - Investigación Operativa y Estadistica <br> </strong> <strong style="color: black; font-size: 16px"> Especialización </strong> FUNDACIÓN UNIVERSITARIA LOS LIBERTADORES - Estadistica Aplicada <br><strong style="color: black; font-size: 16px"> Pregrado/Universitario </strong>  UNIVERSIDAD DE CUNDINAMARCA - licenciatura en matematicas',
                 areas_actuacion: '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> Ciencias Naturales -- Matemática -- Estadísticas y Probabilidades (Investigación en Metodologías)',
                 par_evaluador: '<strong style="color: black; font-size: 18px"> Par evaluador: </strong><br> Ámbito: Nacional  Par evaluador de:  Proyecto Institución: Secretaria de educacion del municipio de Fusagasuga, 2014, Septiembre  <br> Ámbito: Nacional  Par evaluador de:   Proyecto  Institución: Fundacion Red Colombiana de Semilleros de Investigacion RedColsi - Nodo Bogota,  2023,  Enero  ',
             },
@@ -71,7 +71,7 @@ var dataDocentes = {
                 nombre_citaciones: '<strong style="color: black; font-size: 18px">✍🏻 Nombre en citaciones:</strong> <br> GORDILLO OCHOA, WILSON DANIEL',
                 nacionalidad: '<strong style="color: black; font-size: 18px">🌎 Nacionalidad:</strong> <br> Colombiana',
                 formacion:
-                    '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> Maestría/Magister UNIVERSIDAD COOPERATIVA DE COLOMBIA <br> 	Especialización UNIVERSIDAD COOPERATIVA DE COLOMBIA <br> 	Especialización UNIVERSIDAD COOPERATIVA DE COLOMBIA-Docencia universitaria <br> 	Pregrado/Universitario Corporación Universidad Piloto De Colombia',
+                    '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px"> Maestría/Magister </strong> UNIVERSIDAD COOPERATIVA DE COLOMBIA - EDUCACION <br> <strong style="color: black; font-size: 16px"> Especialización </strong> UNIVERSIDAD COOPERATIVA DE COLOMBIA - Redes y Telecomunicaciones <br> <strong style="color: black; font-size: 16px"> Especialización </strong> UNIVERSIDAD COOPERATIVA DE COLOMBIA - Docencia Universitaria <br> <strong style="color: black; font-size: 16px"> Pregrado/Universitario </strong>  Corporación Universidad Piloto De Colombia - Ingeniería de Sistemas',
                 areas_actuacion: '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br>  Ciencias Naturales -- Computación y Ciencias de la Información -- Ciencias de la Computación <br> Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Ingeniería de Sistemas y Comunicaciones <br> Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Telecomunicaciones',
                 par_evaluador: '',
             },
@@ -206,6 +206,19 @@ var dataDocentes = {
                 par_evaluador: '',
             },
         ],
+        Sotelo: [
+            {
+                id: 12,
+                nombre: 'Jose Fernando Sotelo Cubillos',
+                ruta: './img/docentes/iconopersonaM.jpg',
+                nombre_citaciones: '<strong style="color: black; font-size: 18px">✍🏻 Nombre en citaciones:</strong> <br> SOTELO CUBILLOS, JOSE FERNANDO',
+                nacionalidad: '<strong style="color: black; font-size: 18px">🌎 Nacionalidad:</strong> <br> Colombiana',
+                formacion:
+                    '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> 	Maestría/Magister Universidat Oberta De Catalunya - Maestria en Software Libre <br> Especialización Corporación Universidad Piloto De Colombia - Sede Girardot <br> 	Pregrado/Universitario Corporación Universidad Piloto De Colombia - Sede Girardot',
+                areas_actuacion: '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Ingeniería de Sistemas y Comunicaciones <br>  Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Telecomunicaciones <br>  Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Hardware y Arquitectura de Computadores <br> Ingeniería y Tecnología -- Otras Ingenierías y Tecnologías -- Otras Ingenierías y Tecnologías <br>  Ciencias Sociales -- Ciencias de la Educación -- Educación General (Incluye Capacitación, Pedagogía)',
+                par_evaluador: '',
+            },
+        ],
         Lozano: [
             {
                 id: 13,
@@ -214,7 +227,7 @@ var dataDocentes = {
                 nombre_citaciones: '<strong style="color: black; font-size: 18px">✍🏻 Nombre en citaciones:</strong> <br> PARDO MORALES, JORGE ROLANDO',
                 nacionalidad: '<strong style="color: black; font-size: 18px">🌎 Nacionalidad:</strong> <br> Colombiana',
                 formacion:
-                    '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> Maestría/Magister UNIVERSIDAD DEL TOLIMA <br> Especialización Corporación Universidad Piloto De Colombia - Sede Girardot <br> 	Pregrado/Universitario Corporación Universidad Piloto De Colombia - Sede Girardot',
+                    '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px"> Maestría/Magister </strong> UNIVERSIDAD DEL TOLIMA <br> </strong> <strong style="color: black; font-size: 16px"> Especialización </strong> Corporación Universidad Piloto De Colombia - Sede Girardot <br> </strong><strong style="color: black; font-size: 16px"> Pregrado/Universitario </strong> Corporación Universidad Piloto De Colombia - Sede Girardot',
                 areas_actuacion: '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Ingeniería de Sistemas y Comunicaciones <br>  Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Telecomunicaciones <br>  Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Hardware y Arquitectura de Computadores <br> Ingeniería y Tecnología -- Otras Ingenierías y Tecnologías -- Otras Ingenierías y Tecnologías <br>  Ciencias Sociales -- Ciencias de la Educación -- Educación General (Incluye Capacitación, Pedagogía)',
                 par_evaluador: '',
             },
