@@ -1,100 +1,200 @@
 .galeria {
-  display: none;
+	display: none;
 
-  &--active {
-    display: block;
-  }
+	&--active {
+		display: block;
+	}
 
-  &__overlay {
-    background: rgba(48, 97, 33, 0.971);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: 100;
-    overflow: auto;
-  }
+	&__overlay {
+		background: #57dd42;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		z-index: 100;
+		overflow: auto;
+	}
+	
+	&__area-diseño {
+		background: -webkit-linear-gradient(to left, #8cc8a3, #06e211);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
 
-  &__contenedor {
-    // background-color: #fff;
-    width: 90%;
-    max-width: 1050px;
-    margin: auto;
-    padding: 40px 0;
-    // display: grid;
-    height: 100vh;
-    // grid-template-rows: auto 1fr auto;
-    gap: 20px;
-    position: relative;
-    border-radius: 10%;
-  }
+	&__area-diseño li {
+		position: absolute;
+		display: block;
+		list-style: none;
+		width: 20px;
+		height: 20px;
+		background: rgba(232, 7, 7, 0.2);
+		animation: animate 25s linear infinite;
+		bottom: -150px;
 
-  &__contenedor-titulo {
-    background-color: #787777;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 1em;
-    margin-bottom: 1em;
-  }
+	}
 
-  &__nombre {
-    font-size: 24px;
-    font-weight: bold;
-    color: #000000;
-    padding-left: 2em;
-  }
+	&__area-diseño li:nth-child(1) {
+		left: 25%;
+		width: 80px;
+		height: 80px;
+		animation-delay: 0s;
+	}
 
-  &__btn {
-    background: none;
-    border: none;
-    color: #000000;
-    width: 5em;
-    height: 5em;
-    cursor: pointer;
-    justify-content: end;
-  }
 
-  &__icono-boton {
-    height: 80%;
-    width: 80%;
-    transform-origin: center; // Asegura que la animación ocurra desde el centro
-    transition: transform 2s ease-in-out; // Efecto suave al entrar y salir
+	&__area-diseño li:nth-child(2) {
+		left: 10%;
+		width: 20px;
+		height: 20px;
+		animation-delay: 2s;
+		animation-duration: 12s;
+	}
 
-    // Cuando el usuario pase el cursor sobre el botón
-    &:hover {
-      animation: respirar 1.3s ease-in-out infinite; // Inicia la animación al hacer hover
-    }
-  }
+	&__area-diseño li:nth-child(3) {
+		left: 70%;
+		width: 20px;
+		height: 20px;
+		animation-delay: 4s;
+	}
 
-  &__contenedor-biografia {
-    background-color: #919d8d;
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: center;
-    border-radius: 1em;
-  }
+	&__area-diseño li:nth-child(4) {
+		left: 40%;
+		width: 60px;
+		height: 60px;
+		animation-delay: 0s;
+		animation-duration: 18s;
+	}
 
-  &__contenedor-imagen-activa {
-    width: 15em;
-    height: 15em;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    background-color: white;
-  }
+	&__area-diseño li:nth-child(5) {
+		left: 65%;
+		width: 20px;
+		height: 20px;
+		animation-delay: 0s;
+	}
 
-  &__contenedor-docente {
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-  }
-  &__par-evaluador {
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-  }
+	&__area-diseño li:nth-child(6) {
+		left: 75%;
+		width: 110px;
+		height: 110px;
+		animation-delay: 3s;
+	}
+
+	&__area-diseño li:nth-child(7) {
+		left: 35%;
+		width: 150px;
+		height: 150px;
+		animation-delay: 7s;
+	}
+
+	&__area-diseño li:nth-child(8) {
+		left: 50%;
+		width: 25px;
+		height: 25px;
+		animation-delay: 15s;
+		animation-duration: 45s;
+	}
+
+	&__area-diseño li:nth-child(9) {
+		left: 20%;
+		width: 15px;
+		height: 15px;
+		animation-delay: 2s;
+		animation-duration: 35s;
+	}
+
+	&__area-diseño li:nth-child(10) {
+		left: 85%;
+		width: 150px;
+		height: 150px;
+		animation-delay: 0s;
+		animation-duration: 11s;
+	}
+
+
+	&__contenedor {
+		// background-color: #fff;
+		width: 90%;
+		max-width: 1050px;
+		margin: auto;
+		padding: 40px 0;
+		// display: grid;
+		height: 100vh;
+		// grid-template-rows: auto 1fr auto;
+		gap: 20px;
+		position: relative;
+		border-radius: 10%;
+	}
+
+	&__contenedor-titulo {
+		background-color: #787777;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-radius: 1em;
+		margin-bottom: 1em;
+	}
+
+	&__nombre {
+		font-size: 24px;
+		font-weight: bold;
+		color: #000000;
+		padding-left: 2em;
+	}
+
+	&__btn {
+		background: none;
+		border: none;
+		color: #000000;
+		width: 5em;
+		height: 5em;
+		cursor: pointer;
+		justify-content: end;
+	}
+
+	&__icono-boton {
+		height: 80%;
+		width: 80%;
+		transform-origin: center; // Asegura que la animación ocurra desde el centro
+		transition: transform 2s ease-in-out; // Efecto suave al entrar y salir
+
+		// Cuando el usuario pase el cursor sobre el botón
+		&:hover {
+			animation: respirar 1.3s ease-in-out infinite; // Inicia la animación al hacer hover
+		}
+	}
+
+	&__contenedor-biografia {
+		background-color: #919d8d;
+		width: auto;
+		height: auto;
+		display: flex;
+		align-items: center;
+		border-radius: 1em;
+	}
+
+	&__contenedor-imagen-activa {
+		width: 15em;
+		height: 15em;
+		display: flex;
+		justify-content: center;
+		overflow: hidden;
+		background-color: white;
+	}
+
+	&__contenedor-docente {
+		color: rgb(0, 0, 0);
+		font-weight: bold;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__par-evaluador {
+		color: rgb(0, 0, 0);
+		font-weight: bold;
+	}
 }
