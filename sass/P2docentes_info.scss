@@ -168,14 +168,14 @@
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    // justify-content: center;
     // flex-direction: column;
     border-radius: 2em;
-    padding: 1em;
+    padding: 2em;
   }
   &__contenedor-imagen-activa {
-    width: 10em;
-    height: 10em;
+    width: 12em;
+    height: 12em;
     display: flex;
     flex-direction: column;
     border-radius: 3%;
@@ -206,9 +206,9 @@
     background-color: #ffffffb1;
     width: auto;
     height: auto;
-    display: flex;
     border-radius: 2em;
     margin-top: 1em;
     padding: 2em;
+    padding-left: 4em;
   }
 }

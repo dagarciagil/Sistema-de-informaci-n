@@ -12,9 +12,9 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px"> Maestría/Magister </strong> UNIVERSIDAD DEL TOLIMA - Investigación Operativa y Estadistica <br> </strong> <strong style="color: black; font-size: 16px"> Especialización </strong> FUNDACIÓN UNIVERSITARIA LOS LIBERTADORES - Estadistica Aplicada <br><strong style="color: black; font-size: 16px"> Pregrado/Universitario </strong>  UNIVERSIDAD DE CUNDINAMARCA - licenciatura en matematicas',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> Ciencias Naturales -- Matemática -- Estadísticas y Probabilidades (Investigación en Metodologías)',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ciencias Naturales </strong> <br> -- Matemática <br> -- Estadísticas y Probabilidades (Investigación en Metodologías)',
         par_evaluador:
-          '<strong style="color: black; font-size: 18px"> Par evaluador: </strong> <br> 1. Ámbito: Nacional <br> Par evaluador de: No aplica <br> Proyecto  Institución: Fundación Red Colombiana de Semilleros de Investigación RedColsi - Nodo Bogota, 2023, Enero <br> 2. Ámbito: Nacional <br> Par evaluador de: No aplica <br> Proyecto Institución: Secretaria de educación del municipio de Fusagasugá, 2014, Septiembre',
+          '<strong style="color: black; font-size: 18px"> Par evaluador: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ámbito: Nacional </strong> <br> -- Par evaluador de: No aplica <br> -- Proyecto  Institución: Fundación Red Colombiana de Semilleros de Investigación RedColsi - Nodo Bogota, 2023, Enero <br> <strong style="color: black; font-size: 16px"> 2. Ámbito: Nacional </strong> <br> -- Par evaluador de: No aplica <br> -- Proyecto Institución: Secretaria de educación del municipio de Fusagasugá, 2014, Septiembre',
       },
     ],
     Gordillo: [
@@ -29,7 +29,7 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px"> Maestría/Magister </strong> UNIVERSIDAD COOPERATIVA DE COLOMBIA - EDUCACION <br> <strong style="color: black; font-size: 16px"> Especialización </strong> UNIVERSIDAD COOPERATIVA DE COLOMBIA - Redes y Telecomunicaciones <br> <strong style="color: black; font-size: 16px"> Especialización </strong> UNIVERSIDAD COOPERATIVA DE COLOMBIA - Docencia Universitaria <br> <strong style="color: black; font-size: 16px"> Pregrado/Universitario </strong>  Corporación Universidad Piloto De Colombia - Ingeniería de Sistemas',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br>  Ciencias Naturales -- Computación y Ciencias de la Información -- Ciencias de la Computación <br> Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Ingeniería de Sistemas y Comunicaciones <br> Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Telecomunicaciones',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br><strong style="color: black; font-size: 16px"> 1. Ciencias Naturales </strong><br> -- Computación y Ciencias de la Información <br> -- Ciencias de la Computación <br><strong style="color: black; font-size: 16px">2. Ingeniería y Tecnología </strong><br> -- Ingenierías Eléctrica, Electrónica e Informática <br> -- Telecomunicaciones <br> -- Ingeniería de Sistemas y Comunicaciones',
         par_evaluador: "",
       },
     ],
@@ -45,7 +45,7 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px">Doctorado</strong> UNIVERSIDAD AUTÓNOMA CHAPINGO - Ciencias en Horticultura <br> <strong style="color: black; font-size: 16px">Maestría/Magister</strong> UNIVERSIDAD AUTÓNOMA CHAPINGO - Ciencias en Agroforestería para el desarrollo sostenible <br> <strong style="color: black; font-size: 16px">Especialización </strong>UNIVERSIDAD NACIONAL DE COLOMBIA - FACULTAD DE AGRONOMIA <br> <strong style="color: black; font-size: 16px">Pregrado/Universitario</strong> UNIVERSIDAD DE CUNDINAMARCA - Ingeniería Agronómica',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br>  Ciencias Agrícolas -- Biotecnología Agrícola -- Biotecnología Agrícola y de Alimentos <br> Ciencias Agrícolas -- Agricultura, Silvicultura y Pesca -- Agronomía',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br><strong style="color: black; font-size: 16px"> 1. Ciencias Agrícolas - Biotecnología Agrícola </strong> <br> -- Biotecnología Agrícola y de Alimentos <br> <strong style="color: black; font-size: 16px"> 2. Ciencias Agrícolas - Agricultura, Silvicultura y Pesca </strong><br> -- Agronomía',
         par_evaluador: "",
       },
     ],
@@ -61,7 +61,7 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px">Maestría/Magister</strong> Universidad Oberta de Cataluña - EDUCACION Y TIC <br> <strong style="color: black; font-size: 16px">Especialización</strong> UNIVERSIDAD SANTO TOMAS - Gestión empresarial <br> <strong style="color: black; font-size: 16px">Pregrado/Universitario</strong> UNIVERSIDAD CENTRAL - INGENIERIA',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br>   Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Ingeniería de Sistemas y Comunicaciones',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ingeniería y Tecnología </strong><br> -- Ingenierías Eléctrica, Electrónica e Informática <br> -- Ingeniería de Sistemas y Comunicaciones',
         par_evaluador: "",
       },
     ],
@@ -77,9 +77,9 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px">Maestría/Magister</strong> UNIVERSIDAD TECNOLÓGICA DE PEREIRA - MAESTRIA EN INVESTIGACION OPERATIVA Y ESTADISTICA <br> <strong style="color: black; font-size: 16px">Especialización</strong> FUNDACIÓN UNIVERSITARIA LOS LIBERTADORES - ESPECIALIZACION EN ESTADISTICA APLICADA <br> <strong style="color: black; font-size: 16px">Pregrado/Universitario</strong> UNIVERSIDAD DE CUNDINAMARCA - Licenciatura en matemáticas',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br>  Ciencias Naturales -- Matemática -- Estadísticas y Probabilidades (Investigación en Metodologías)',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px">1. Ciencias Naturales </strong> <br> -- Matemática <br> -- Estadísticas y Probabilidades (Investigación en Metodologías)',
         par_evaluador:
-          '<strong style="color: black; font-size: 18px"> Par evaluador: </strong> <br> 1. Ámbito: Nacional <br> Par evaluador de: No aplica <br> Proyecto  Institución: Secretaria de educación del municipio de Fusagasugá,  2014,  Septiembre',
+          '<strong style="color: black; font-size: 18px"> Par evaluador: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ámbito: Nacional </strong> <br> -- Par evaluador de: No aplica <br> -- Proyecto Institución: Secretaria de educación del municipio de Fusagasugá,  2014,  Septiembre',
       },
     ],
     Eli: [
@@ -94,7 +94,7 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px">Especialización</strong> CORPORACIÓN UNIVERSITARIA REMINGTON - Ciencias Básicas e Ingeniería <br> <strong style="color: black; font-size: 16px">Pregrado/Universitario</strong> Fundación Universidad Incca De Colombia - Ingeniería de Sistemas <br> <strong style="color: black; font-size: 16px">Secundaria</strong> - Instituto Champagnat <br> <strong style="color: black; font-size: 16px">Primaria</strong> - Instituto San Juan Bosco',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br>   Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Ingeniería de Sistemas y Comunicaciones',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ingeniería y Tecnología </strong> <br> -- Ingenierías Eléctrica, Electrónica e Informática <br> -- Ingeniería de Sistemas y Comunicaciones',
         par_evaluador: "",
       },
     ],
@@ -110,9 +110,9 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px">Maestría/Magister</strong> CORPORACIÓN UNIVERSITARIA MINUTO DE DIOS (UNIMINUTO) - MAESTRÍA EN EDUCACIÓN <br> <strong style="color: black; font-size: 16px">Pregrado/Universitario</strong> CORPORACIÓN UNIVERSITARIA MINUTO DE DIOS (UNIMINUTO) - LICENCIATURA EN INFORMATICA <br> <strong style="color: black; font-size: 16px">Técnico/nivel superior</strong> CORPORACIÓN UNIVERSITARIA MINUTO DE DIOS (UNIMINUTO) - TECNOLOGIA EN INFORMATICA <br> <strong style="color: black; font-size: 16px">Secundaria</strong> - Inem Francisco De Paula Santander Kennedy',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br>    Ciencias Sociales -- Ciencias de la Educación -- Educación General (Incluye Capacitación, Pedagogía) <br>  Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Hardware y Arquitectura de Computadores <br>  Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Telecomunicaciones <br> Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Robótica y Control Automático <br>  Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Ingeniería de Sistemas y Comunicaciones',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ciencias Sociales </strong> <br> -- Ciencias de la Educación <br> -- Educación General (Incluye Capacitación, Pedagogía) <br> <strong style="color: black; font-size: 16px"> 2. Ingeniería y Tecnología </strong> <br> -- Ingenierías Eléctrica, Electrónica e Informática <br> -- Hardware y Arquitectura de Computadores <br> -- Telecomunicaciones <br> -- Robótica y Control Automático <br> -- Ingeniería de Sistemas y Comunicaciones',
         par_evaluador:
-          '<strong style="color: black; font-size: 18px"> Par evaluador: </strong> <br> 1. Ámbito: Nacional <br> Par evaluador de: No aplica <br> Material para publicación revista científica: Revista Perspectivas De La Investigación, 2024, Junio',
+          '<strong style="color: black; font-size: 18px"> Par evaluador: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ámbito: Nacional </strong> <br> -- Par evaluador de: No aplica <br> -- Material para publicación revista científica: Revista Perspectivas De La Investigación, 2024, Junio',
       },
     ],
     Vargas: [
@@ -127,7 +127,7 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px">Especialización</strong> UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS - Gerencia de Proyectos Educativos Institucionales <br> <strong style="color: black; font-size: 16px">Pregrado/Universitario</strong> UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS - Licenciatura en Matemáticas',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br>  Ciencias Sociales -- Ciencias de la Educación -- Educación General (Incluye Capacitación, Pedagogía)',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ciencias Sociales </strong> <br> -- Ciencias de la Educación <br> -- Educación General (Incluye Capacitación, Pedagogía)',
         par_evaluador: "",
       },
     ],
@@ -143,7 +143,7 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px">Maestría/Magister</strong> Universitat Oberta de Catalunya - Educación y TIC (e-learning) <br> <strong style="color: black; font-size: 16px">Especialización</strong> Escuela de Comunicaciones Militares - Gerencia Integral en Telecomunicaciones <br> <strong style="color: black; font-size: 16px">Pregrado/Universitario</strong> Fundación Universidad Incca De Colombia - Ingeniería de Sistemas',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br>  Ciencias Sociales -- Ciencias de la Educación -- Educación General (Incluye Capacitación, Pedagogía)',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ciencias Sociales </strong> <br> -- Ciencias de la Educación <br> -- Educación General (Incluye Capacitación, Pedagogía)',
         par_evaluador: "",
       },
     ],
@@ -159,7 +159,7 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px">Doctorado</strong> UNIVERSIDAD DE LOS ANDES - Ingeniería <br> <strong style="color: black; font-size: 16px">Maestría/Magister</strong> Pontifícia Universidade Católica Do Rio De Janeiro - Mestrado em Física <br> <strong style="color: black; font-size: 16px">Pregrado/Universitario</strong> UNIVERSIDAD DE CUNDINAMARCA - Licenciatura en Física',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br>  Ciencias Naturales -- Ciencias Físicas -- Física de la Materia <br> Ingeniería y Tecnología -- Nanotecnología -- Nanomateriales (Producción y Propiedades) <br>  Ingeniería y Tecnología -- Nanotecnología -- Nanoprocesos (Aplicaciones a Nanoescala)',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ciencias Naturales - Ciencias Físicas </strong> <br> -- Física de la Materia <br> <strong style="color: black; font-size: 16px"> 2. Ingeniería y Tecnología </strong> <br> -- Nanotecnología <br> -- Nanomateriales (Producción y Propiedades) <br> -- Nanoprocesos (Aplicaciones a Nanoescala)',
         par_evaluador: "",
       },
     ],
@@ -175,7 +175,7 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px">Maestría/Magister</strong> Universidad Internacional de la Rioja - Master en Tecnología Educativa y Competencias Digitales <br> <strong style="color: black; font-size: 16px">Especialización</strong> UNIVERSIDAD DE CUNDINAMARCA FGGA - Gerencia para el Desarrollo Organizacional <br> <strong style="color: black; font-size: 16px">Pregrado/Universitario</strong> UNIVERSIDAD DE CUNDINAMARCA FGGA - Ingeniería Electrónica',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px">1. Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática </strong> <br> -- Ingeniería Eléctrica y Electrónica <br> -- Robótica y Control Automático <br> -- Ingeniería de Sistemas y Comunicaciones <br> -- Hardware y Arquitectura de Computadores <br> -- Automatización y Sistemas de Control <br> <strong style="color: black; font-size: 16px">2. Ciencias Sociales -- Ciencias de la Educación</strong> <br> -- Educación General (Incluye Capacitación, Pedagogía) <br> -- Educación Especial (para Estudiantes Dotados y Aquellos con Dificultades del Aprendizaje)',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px">1. Ingeniería y Tecnología </strong> <br> -- Ingenierías Eléctrica, Electrónica e Informática <br> -- Robótica y Control Automático <br> -- Ingeniería de Sistemas y Comunicaciones <br> -- Hardware y Arquitectura de Computadores <br> -- Automatización y Sistemas de Control <br> <strong style="color: black; font-size: 16px">2. Ciencias Sociales </strong> <br> -- Ciencias de la Educación <br> -- Educación General (Incluye Capacitación, Pedagogía) <br> -- Educación Especial (para Estudiantes Dotados y Aquellos con Dificultades del Aprendizaje)',
         par_evaluador: "",
       },
     ],
@@ -191,7 +191,7 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px">Especialización</strong> INSTITUCIÓN UNIVERSITARIA POLITÉCNICO GRANCOLOMBIANO - Gerencia de Proyectos en Telecomunicaciones <br> <strong style="color: black; font-size: 16px">Pregrado/Universitario</strong> UNIVERSIDAD DE CUNDINAMARCA - Ingeniería de Sistemas',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br>  Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Ingeniería de Sistemas y Comunicaciones <br>  Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Telecomunicaciones <br>  Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Hardware y Arquitectura de Computadores <br>  Ingeniería y Tecnología -- Otras Ingenierías y Tecnologías -- Otras Ingenierías y Tecnologías <br> Ciencias Sociales -- Economía y Negocios -- Economía <br> Ciencias Sociales -- Economía y Negocios -- Negocios y Management <br> Ciencias Sociales -- Ciencias de la Educación -- Educación General (Incluye Capacitación, Pedagogía) <br> Ciencias Sociales -- Otras Ciencias Sociales -- Otras Ciencias Sociales <br> Humanidades -- Idiomas y Literatura -- Idiomas Específicos <br>  Humanidades -- Arte -- Diseño',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ingeniería y Tecnología </strong> <br> -- Ingenierías Eléctrica, Electrónica e Informática <br> -- Ingeniería de Sistemas y Comunicaciones <br> -- Telecomunicaciones <br> -- Hardware y Arquitectura de Computadores <br> -- Otras Ingenierías y Tecnologías <br> <strong style="color: black; font-size: 16px"> 2. Ciencias Sociales </strong> <br> -- Economía y Negocios <br> -- Negocios y Management <br> -- Ciencias de la Educación <br> -- Educación General (Incluye Capacitación, Pedagogía) <br> -- Otras Ciencias Sociales <br> <strong style="color: black; font-size: 16px"> 3. Humanidades </strong> <br> -- Idiomas y Literatura <br> -- Arte <br> -- Diseño',
         par_evaluador: "",
       },
     ],
@@ -207,7 +207,7 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px">Maestría/Magister</strong> Universidat Oberta De Catalunya - Maestría en Software Libre <br> <strong style="color: black; font-size: 16px">Especialización</strong> Universidad Antonio Nariño (U.A.N) Sede Bogotá - Administración de Empresas <br> <strong style="color: black; font-size: 16px">Pregrado/Universitario</strong> Universidad Autónoma De Colombia - Ingeniería de sistemas',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Ingeniería de Sistemas y Comunicaciones',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ingeniería y Tecnología </strong> <br> -- Ingenierías Eléctrica, Electrónica e Informática <br> -- Ingeniería de Sistemas y Comunicaciones',
         par_evaluador: "",
       },
     ],
@@ -223,7 +223,7 @@ export default {
         formacion:
           '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px"> Maestría/Magister </strong> UNIVERSIDAD DEL TOLIMA - Maestría en Educación <br> </strong> <strong style="color: black; font-size: 16px"> Especialización </strong> Corporación Universidad Piloto De Colombia sede Girardot - GERENCIA DE PROYECTOS <br> </strong><strong style="color: black; font-size: 16px"> Pregrado/Universitario </strong> Corporación Universidad Piloto De Colombia sede Girardot - Ingeniería de sistemas',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Ingeniería de Sistemas y Comunicaciones <br>  Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Telecomunicaciones <br>  Ingeniería y Tecnología -- Ingenierías Eléctrica, Electrónica e Informática -- Hardware y Arquitectura de Computadores <br> Ingeniería y Tecnología -- Otras Ingenierías y Tecnologías -- Otras Ingenierías y Tecnologías <br>  Ciencias Sociales -- Ciencias de la Educación -- Educación General (Incluye Capacitación, Pedagogía)',
+          '<strong style="color: black; font-size: 18px">🕵️ Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ingeniería y Tecnología </strong> <br> -- Ingenierías Eléctrica, Electrónica e Informática <br> -- Ingeniería de Sistemas y Comunicaciones <br> -- Telecomunicaciones <br> -- Hardware y Arquitectura de Computadores <br> -- Otras Ingenierías y Tecnologías <br> <strong style="color: black; font-size: 16px"> 2. Ciencias Sociales </strong> <br> -- Ciencias de la Educación <br> -- Educación General (Incluye Capacitación, Pedagogía)',
         par_evaluador: "",
       },
     ],
@@ -237,9 +237,9 @@ export default {
         nacionalidad:
           '<strong style="color: black; font-size: 18px">🌎 Nacionalidad:</strong> <br> Colombiana',
         formacion:
-          '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px"> Maestría/Magister </strong>UNIVERSIDAD DE CUNDINAMARCA - MAESTRÍA EN EDUCACIÓN <br> <strong style="color: black; font-size: 16px"> Pregrado/Universitario </strong> UNIVERSIDAD DE CUNDINAMARCA <br> Secundario - Colegio Diocesano Ricaurte',
+          '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px"> Maestría/Magister </strong>UNIVERSIDAD DE CUNDINAMARCA - MAESTRÍA EN EDUCACIÓN <br> <strong style="color: black; font-size: 16px"> Pregrado/Universitario </strong> UNIVERSIDAD DE CUNDINAMARCA <br> <strong style="color: black; font-size: 16px"> Secundaria </strong> - Colegio Diocesano Ricaurte',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵 Áreas de actuación: </strong> <br>Ciencias Naturales -- Matemática -- Matemáticas Aplicadas',
+          '<strong style="color: black; font-size: 18px">🕵 Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ciencias Naturales </strong> <br> -- Matemática <br> -- Matemáticas Aplicadas',
         par_evaluador: "",
       },
     ],
@@ -253,9 +253,9 @@ export default {
         nacionalidad:
           '<strong style="color: black; font-size: 18px">🌎 Nacionalidad:</strong> <br> Colombiana',
         formacion:
-          '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px"> Maestría/Magister </strong>UNIVERSIDAD DE CUNDINAMARCA - MAESTRÍA EN EDUCACIÓN <br> <strong style="color: black; font-size: 16px"> Pregrado/Universitario </strong> UNIVERSIDAD DE CUNDINAMARCA FGGA - Licencitura en Mateméticas <br> <strong style="color: black; font-size: 16px"> Perfeccionamiento  </strong> UNIVERSIDAD DE CUNDINAMARCA FGGA - DIPLOMADO EN ESTRATEGÍAS COMUNICATIVAS <br> <strong style="color: black; font-size: 16px"> Perfeccionamiento  </strong> Fundación Reeducativa PROFUTURO - NEURODIDÁCTICA<br> <strong style="color: black; font-size: 16px"> Perfeccionamiento  </strong> SENA CENTRO AGROECOLÓGICO Y EMPRESARIAL FUSAGASUGÁ - SOLUCIÓN DE PROBLEMAS DE AMBIENTES DE APRENDIZAJE GRADO 9 <br> <strong style="color: black; font-size: 16px"> Técnico - nivel medio </strong> Servicio Nacional De Aprendizaje Sena-Fusagasuga - TÉCNICO EN VENTAS DE PRODUCTOS Y SERVICIOS <br> <strong style="color: black; font-size: 16px"> Técnico - nivel medio </strong>  INSATITUCION EDUCATIVA TECNICA MUNICIPAL TEODORO AYA VILLAVECES - GESTION EMPRESARIAL <br> <strong style="color: black; font-size: 16px"> Secundario  </strong>   INSATITUCION EDUCATIVA TECNICA MUNICIPAL TEODORO AYA VILLAVECES <br>',
+          '<strong style="color: black; font-size: 18px">🎖️ Formación académica: </strong> <br> <strong style="color: black; font-size: 16px"> Maestría/Magister </strong>UNIVERSIDAD DE CUNDINAMARCA - MAESTRÍA EN EDUCACIÓN <br> <strong style="color: black; font-size: 16px"> Pregrado/Universitario </strong> UNIVERSIDAD DE CUNDINAMARCA FGGA - Licencitura en Mateméticas <br> <strong style="color: black; font-size: 16px"> Perfeccionamiento  </strong> UNIVERSIDAD DE CUNDINAMARCA FGGA - DIPLOMADO EN ESTRATEGÍAS COMUNICATIVAS <br> <strong style="color: black; font-size: 16px"> Perfeccionamiento  </strong> Fundación Reeducativa PROFUTURO - NEURODIDÁCTICA<br> <strong style="color: black; font-size: 16px"> Perfeccionamiento  </strong> SENA CENTRO AGROECOLÓGICO Y EMPRESARIAL FUSAGASUGÁ - SOLUCIÓN DE PROBLEMAS DE AMBIENTES DE APRENDIZAJE GRADO 9 <br> <strong style="color: black; font-size: 16px"> Técnico - nivel medio </strong> Servicio Nacional De Aprendizaje Sena-Fusagasuga - TÉCNICO EN VENTAS DE PRODUCTOS Y SERVICIOS <br> <strong style="color: black; font-size: 16px"> Técnico - nivel medio </strong>  INSATITUCION EDUCATIVA TECNICA MUNICIPAL TEODORO AYA VILLAVECES - GESTION EMPRESARIAL <br> <strong style="color: black; font-size: 16px"> Secundaria </strong> INSATITUCION EDUCATIVA TECNICA MUNICIPAL TEODORO AYA VILLAVECES <br>',
         areas_actuacion:
-          '<strong style="color: black; font-size: 18px">🕵 Áreas de actuación: </strong> <br>Ciencias Sociales -- Ciencias de la Educación -- Educación General (Incluye Capacitación, Pedagogía) <br> Ciencias Sociales -- Ciencias de la Educación -- Educación Especial (para Estudiantes Dotados y Aquellos con Dificultades del Aprendizaje)',
+          '<strong style="color: black; font-size: 18px">🕵 Áreas de actuación: </strong> <br> <strong style="color: black; font-size: 16px"> 1. Ciencias Sociales </strong> <br> -- Ciencias de la Educación <br> -- Educación General (Incluye Capacitación, Pedagogía) <br> -- Educación Especial (para Estudiantes Dotados y Aquellos con Dificultades del Aprendizaje)',
         par_evaluador: "",
       },
     ],
