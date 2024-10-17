@@ -1,114 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Repositorio Institucional - UCundinamarca</title>
-    <!-- Enlace al archivo CSS externo -->
-    <link rel="stylesheet" href="./public/bundle.css" />
-    <script defer src="./public/bundle.js"></script>
-  </head>
 
-  <body>
-    <!-- Encabezado Principal -->
-    <header class="barranav">
-      <!-- Barra de Navegación -->
-      <div class="barranav__logo">
-        <div class="barranav__boxlogo">
-          <img
-            class="barranav__logo1"
-            src="img/logoUcundiProyectos-2024.png"
-            href=""
-            alt="LogoPagina"
-          />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Repositorio Institucional - UCundinamarca</title>
+  <!-- Enlace al archivo CSS externo -->
+  <link rel="stylesheet" href="./public/bundle.css" />
+  <script defer src="./public/bundle.js"></script>
+</head>
+
+<body>
+  <!-- Encabezado Principal -->
+  <header class="barranav">
+    <!-- Barra de Navegación -->
+    <div class="barranav__logo">
+      <div class="barranav__boxlogo">
+        <a href="index.html"> <img class="barranav__logo1" src="../img/logoUcundiProyectos-2024.png" alt="LogoPagina" />
+        </a>
       </div>
-      <!-- Barra del menú -->
-      <nav class="barranav__menu">
-        <a href="">Inicio</a>
-        <a href="">Estadísticas</a>
-        <a href="">Acerca de</a>
-      </nav>
-    </header>
-    <!-- Fondo 1 pagina principal-->
-    <section class="caja-fondo1">
-      <div class="caja-fondo1__info">
-        <h1>Sistema de información Institucional de la UCundinamarca</h1>
-        <p>
-          Proyectos de investigación del programa de Ingeniería de Sistemas y
-          Computación<br />Sede Fusagasugá
-        </p>
-        <!-- <p>
+    </div>
+    <!-- Barra del menú -->
+    <nav class="barranav__menu">
+      <a href="/public/estadisticas.html">Estadísticas</a>
+      <a href="">Acerca de</a>
+    </nav>
+  </header>
+  <!-- Fondo 1 pagina principal-->
+  <section class="caja-fondo1">
+    <div class="caja-fondo1__info">
+      <h1>Sistema de información Institucional de la UCundinamarca</h1>
+      <p>
+        Proyectos de investigación del programa de Ingeniería de Sistemas y
+        Computación<br />Sede Fusagasugá
+      </p>
+      <!-- <p>
         ProyectosISCFusa es un sistema de información centralizado mediante el
         cuál podrás visualizar y conocer los proyectos de investigación
         realizados por los docentes líderes de investigación que siguen
         vigentes con sus proyectos desarrollados en la UCundinamarca. Conoce a
         cada uno de ellos según el área de investigación de tu interés.
       </p> -->
-        <!-- <img class="caja-fondo1__img1" src="img/img1investigacion.jpeg" alt="Fondo imagen1" /> -->
-      </div>
-    </section>
-
-    <!-- Fondo 2: Tarjetas de Profesores -->
-    <div class="contenedor">
-      <h3>Conoce a tus docentes investigadores</h3>
-      <div class="categorias" id="categorias">
-        <!--Acá se anexan el div categoria con las fotos de los docentes a través de JS  -->
-      </div>
+      <!-- <img class="caja-fondo1__img1" src="img/img1investigacion.jpeg" alt="Fondo imagen1" /> -->
     </div>
+  </section>
 
-    <!-- En esta sección se encuentran lo elementos que conforman el apartado de los docentes con la información de cada uno -->
-    <section class="galeria" id="galeria">
-      <div class="galeria__overlay" data-accion="cerrar-galeria">
-        <ul class="galeria__area-diseño">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-        <div class="galeria__contenedor">
-          <div class="galeria__contenedor-titulo">
-            <h3 class="galeria__nombre"></h3>
-            <button class="galeria__btn" data-accion="cerrar-galeria">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="galeria__icono-boton"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-                />
-              </svg>
-            </button>
+  <!-- Fondo 2: Tarjetas de Profesores -->
+  <div class="contenedor">
+    <h3>Conoce a tus docentes investigadores</h3>
+    <div class="categorias" id="categorias">
+      <!--Acá se anexan el div categoria con las fotos de los docentes a través de JS  -->
+    </div>
+  </div>
+
+  <!-- En esta sección se encuentran lo elementos que conforman el apartado de los docentes con la información de cada uno -->
+  <section class="galeria" id="galeria">
+    <div class="galeria__overlay" data-accion="cerrar-galeria">
+      <ul class="galeria__area-diseño">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="galeria__contenedor">
+        <div class="galeria__contenedor-titulo">
+          <h3 class="galeria__nombre"></h3>
+          <button class="galeria__btn" data-accion="cerrar-galeria">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="galeria__icono-boton" viewBox="0 0 16 16">
+              <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+          </button>
+        </div>
+        <div class="galeria__contenedor-biografia">
+          <div class="galeria__contenedor-imagen-activa" id="imagenActiva">
+            <img src="" class="galeria__imagen" />
           </div>
-          <div class="galeria__contenedor-biografia">
-            <div class="galeria__contenedor-imagen-activa" id="imagenActiva">
-              <img src="" class="galeria__imagen" />
-            </div>
-            <div class="galeria__contenedor-docente1">
-              <p class="galeria__nombre_citaciones"></p>
-              <p class="galeria__nacionalidad"></p>
-              <p class="galeria__formacion"></p>
-            </div>
-          </div>
-          <div class="galeria__contenedor-docente">
-            <p class="galeria__area-actuacion"></p>
-            <p class="galeria__par-evaluador"></p>
+          <div class="galeria__contenedor-docente1">
+            <p class="galeria__nombre_citaciones"></p>
+            <p class="galeria__nacionalidad"></p>
+            <p class="galeria__formacion"></p>
           </div>
         </div>
+        <div class="galeria__contenedor-docente">
+          <p class="galeria__area-actuacion"></p>
+          <p class="galeria__par-evaluador"></p>
+        </div>
       </div>
-    </section>
-    <footer class="footer__final">
-      <p class="footer__texto">Copyright© 2024</p>
-    </footer>
-  </body>
+    </div>
+  </section>
+  <footer class="footer__final">
+    <p class="footer__texto">Copyright© 2024</p>
+  </footer>
+</body>
+
 </html>
