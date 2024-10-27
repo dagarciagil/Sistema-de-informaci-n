@@ -1,5 +1,3 @@
-
-
 //Exportamos un array de objetos con los datos requeridos por cada docente para mostrar en una caja
 export default{
     categorias:[
