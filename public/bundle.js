@@ -6,7 +6,7 @@ var dataCategorias = {
         { id: 'Quevedo', nombre: 'Jorge Quevedo', imagenPortada: './img/docentes/JorgeQuevedo.jpg' },
         { id: 'Gordillo', nombre: 'Wilson Gordillo', imagenPortada: './img/docentes/WilsonGordillo.jpg' },
         { id: 'Fajardo', nombre: 'Alba Fajardo', imagenPortada: './img/docentes/iconopersonaF.jpg' },
-        { id: 'Merchan', nombre: 'Ana Merchan', imagenPortada: './img/docentes/Anamerchan.jpg' },
+        { id: 'Merchan', nombre: 'Ana Merchan', imagenPortada: './img/docentes/AnaMerchan.jpg' },
         { id: 'Buitrago', nombre: 'Bernabe Buitrago', imagenPortada: './img/docentes/iconopersonaM.jpg' },
         { id: 'Eli', nombre: 'Campo Eli', imagenPortada: './img/docentes/CampoEli.jpg' },
         { id: 'Peña', nombre: 'Edgar Peña', imagenPortada: './img/docentes/EdgarPeña.jpg' },
