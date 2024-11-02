@@ -217,7 +217,7 @@ export default {
         nombre: "Juan Jairo Lozano Carvajal",
         ruta: "./img/docentes/JuanLozano.jpg",
         nombre_citaciones:
-          '<strong style="color: black; font-size: 18px">✍🏻 Nombre en citaciones:</strong> <br> PARDO MORALES, JORGE ROLANDO',
+          '<strong style="color: black; font-size: 18px">✍🏻 Nombre en citaciones:</strong> <br> LOZANO CARVAJAL, JUAN JAIRO',
         nacionalidad:
           '<strong style="color: black; font-size: 18px">🌎 Nacionalidad:</strong> <br> Colombiana',
         formacion:
